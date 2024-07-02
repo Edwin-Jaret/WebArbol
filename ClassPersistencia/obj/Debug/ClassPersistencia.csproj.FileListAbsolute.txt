@@ -30,3 +30,14 @@ D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.Co
 D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CopyComplete
 D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.dll
 D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.AssemblyReference.cache
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CoreCompileInputs.cache
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\obj\Debug\ClassPer.D86D6566.Up2Date
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.pdb

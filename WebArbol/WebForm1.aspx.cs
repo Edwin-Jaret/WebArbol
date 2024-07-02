@@ -90,11 +90,15 @@ namespace WebArbol
 
         protected void Button4_Click(object sender, EventArgs e)
         {
+            string mensaje = obArbol.BuscarMaximo();
+            TextBox2.Text = mensaje;
             ActualizarViewTree();
         }
 
         protected void Button5_Click(object sender, EventArgs e)
         {
+            string mensaje = obArbol.BuscarMinimo();
+            TextBox2.Text = mensaje;
             ActualizarViewTree();
         }
 

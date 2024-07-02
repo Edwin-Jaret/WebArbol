@@ -246,5 +246,40 @@ namespace ClassPersistencia
             nuevonodo.Derecha = BuildArbolBalanceado(valores, medio + 1, fin);
             return nuevonodo;
         }
+        public string BuscarMaximo(Nodo nodo)
+        {
+            string mensaje = "";
+            if (nodo == null)
+            {
+                mensaje = "El árbol está vacíoo.";
+            }
+            else
+            {
+                while (nodo.Derecha != null)
+                {
+                    nodo = nodo.Derecha;
+                }
+                mensaje = $"El valor máximo del árbol es: {nodo.dato.Valor}";
+            }
+            return mensaje;
+        }
+
+        public string BuscarMinimo(Nodo nodo)
+        {
+            string mensaje = "";
+            if (nodo == null)
+            {
+                mensaje = "El árbol está vacío.";
+            }
+            else
+            {
+                while (nodo.Izquierda != null)
+                {
+                    nodo = nodo.Izquierda;
+                }
+                mensaje = $"El valor mínimo del árbol es: {nodo.dato.Valor}";
+            }
+            return mensaje;
+        }
     }
 }

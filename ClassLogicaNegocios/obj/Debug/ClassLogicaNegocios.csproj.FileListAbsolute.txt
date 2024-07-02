@@ -37,3 +37,16 @@ D:\Git-Producto\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.cspro
 D:\Git-Producto\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.csproj.CopyComplete
 D:\Git-Producto\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.dll
 D:\Git-Producto\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\ClassLogicaNegocios.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\ClassLogicaNegocios.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\ClassEntidades.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\ClassPersistencia.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\ClassEntidades.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\ClassPersistencia.pdb
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.csproj.AssemblyReference.cache
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLog.D02BE055.Up2Date
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.dll
+C:\Users\Vik\Documents\ProductoGit\WebArbol\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.pdb

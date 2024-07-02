@@ -59,5 +59,16 @@ namespace ClassLogicaNegocios
         {
             return ArbolBina.BalancearArbol();
         }
+        public string BuscarMaximo()
+        {
+            Nodo raiz = ArbolBina.raiz;
+            return ArbolBina.BuscarMaximo(raiz);
+        }
+
+        public string BuscarMinimo()
+        {
+            Nodo raiz = ArbolBina.raiz;
+            return ArbolBina.BuscarMinimo(raiz);
+        }
     }
 }
