@@ -1,0 +1,33 @@
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.dll
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.pdb
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.dll
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.pdb
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CoreCompileInputs.cache
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CopyComplete
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.dll
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.pdb
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.AssemblyReference.cache
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.dll
+E:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.xml
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.dll
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.pdb
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.dll
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.dll
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.pdb
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.xml
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CoreCompileInputs.cache
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CopyComplete
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.dll
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.pdb
+G:\9B\Arbol de busqueda\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.AssemblyReference.cache
+D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.dll
+D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\ClassPersistencia.pdb
+D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.dll
+D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.dll
+D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.pdb
+D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.xml
+D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.AssemblyReference.cache
+D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CoreCompileInputs.cache
+D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CopyComplete
+D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.dll
+D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.pdb
