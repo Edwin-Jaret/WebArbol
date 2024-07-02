@@ -28,6 +28,11 @@ namespace WebArbol
                 obArbol = (ArbolB)Session["coleccion"];
             }
         }
+        private void ActualizarViewTree()
+        {
+            string arbol = obArbol.Conexion();
+            ClientScript.RegisterStartupScript(this.GetType(), "conectar", $"conectar(`{arbol}`)", true);
+        }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -44,6 +49,7 @@ namespace WebArbol
             {
                 TextBox2.Text = "Ingresa un número entero válido";
             }
+            ActualizarViewTree();
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -63,26 +69,38 @@ namespace WebArbol
             ListBox1.Items.Add("Postorden: " + string.Join(", ", postorden));
             ListBox1.Items.Add("Niveles: " + string.Join(", ", niveles));
 
+            ActualizarViewTree();
+
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                int valor = int.Parse(TextBox1.Text);
+                TextBox2.Text = obArbol.EliminarDelArbol(valor);
+                TextBox1.Text = "";
+            }
+            catch (FormatException)
+            {
+                TextBox2.Text = "Ingrese un número entero válido";
+            }
+            ActualizarViewTree();
         }
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-
+            ActualizarViewTree();
         }
 
         protected void Button5_Click(object sender, EventArgs e)
         {
-
+            ActualizarViewTree();
         }
 
         protected void Button6_Click(object sender, EventArgs e)
         {
-
+            ActualizarViewTree();
         }
 
         protected void Button7_Click(object sender, EventArgs e)
@@ -97,6 +115,7 @@ namespace WebArbol
             {
                 TextBox2.Text = "Ingrese un número entero válido";
             }
+            ActualizarViewTree();
         }
     }
 }

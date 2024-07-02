@@ -26,7 +26,6 @@ D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.dll
 D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.dll
 D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\ClassEntidades.pdb
 D:\Git-Producto\WebArbol\ClassPersistencia\bin\Debug\Newtonsoft.Json.xml
-D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.AssemblyReference.cache
 D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CoreCompileInputs.cache
 D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.csproj.CopyComplete
 D:\Git-Producto\WebArbol\ClassPersistencia\obj\Debug\ClassPersistencia.dll

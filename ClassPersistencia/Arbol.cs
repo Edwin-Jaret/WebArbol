@@ -145,5 +145,75 @@ namespace ClassPersistencia
             }
             return mensaje;
         }
+
+        private int Sucesor(Nodo nodo)
+        {
+            while (nodo.Izquierda != null)
+            {
+                nodo = nodo.Izquierda;
+            }
+            return nodo.dato.Valor;
+        }
+
+        private int Antecesor(Nodo nodo)
+        {
+            while (nodo.Derecha != null)
+            {
+                nodo = nodo.Derecha;
+            }
+            return nodo.dato.Valor;
+        }
+        private Nodo EliminarR(Nodo nodo, int valor)
+        {
+            if (nodo == null)
+            {
+                return null;
+            }
+            if (valor < nodo.dato.Valor)
+            {
+                nodo.Izquierda = EliminarR(nodo.Izquierda, valor);
+            }
+            else if (valor > nodo.dato.Valor)
+            {
+                nodo.Derecha = EliminarR(nodo.Derecha, valor);
+            }
+            else
+            {// Nodo con solo un hijo o sin hijos
+                if (nodo.Izquierda == null)
+                {
+                    return nodo.Derecha;
+                }
+                else if (nodo.Derecha == null)
+                {
+                    return nodo.Izquierda;
+                }// Nodo con dos hijos
+                else if (nodo.Derecha != null)
+                {
+                    nodo.dato.Valor = Sucesor(nodo.Derecha);
+                    nodo.Derecha = EliminarR(nodo.Derecha, nodo.dato.Valor);
+                }
+                else
+                {
+                    nodo.dato.Valor = Antecesor(nodo.Izquierda);
+                    nodo.Izquierda = EliminarR(nodo.Izquierda, nodo.dato.Valor);
+                }
+            }
+            return nodo;
+        }
+
+        public string Eliminar(int valor)
+        {
+            string mensaje = "";
+            if (Buscar(raiz, valor) == null)
+            {
+                mensaje = "El valor no existe en el árbol.";
+            }
+            else
+            {
+                raiz = EliminarR(raiz, valor);
+                mensaje = $"Se eliminó correctamente el nodo con el valor: {valor}";
+            }
+            return mensaje;
+        }
     }
 }

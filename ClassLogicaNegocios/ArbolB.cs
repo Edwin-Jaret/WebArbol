@@ -46,5 +46,14 @@ namespace ClassLogicaNegocios
         {
             return ArbolBina.BuscarNodo(valor);
         }
+        public string EliminarDelArbol(int valor)
+        {
+            return ArbolBina.Eliminar(valor);
+        }
+        public string Conexion()
+        {
+            string conexion = JsonConvert.SerializeObject(ArbolBina);
+            return conexion;
+        }
     }
 }
