@@ -55,5 +55,9 @@ namespace ClassLogicaNegocios
             string conexion = JsonConvert.SerializeObject(ArbolBina);
             return conexion;
         }
+        public string BalancearArbol()
+        {
+            return ArbolBina.BalancearArbol();
+        }
     }
 }

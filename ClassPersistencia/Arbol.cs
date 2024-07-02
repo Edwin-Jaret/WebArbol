@@ -215,5 +215,36 @@ namespace ClassPersistencia
             }
             return mensaje;
         }
+        public string BalancearArbol()
+        {
+            string msj = "";
+            if (raiz == null)
+            {
+                msj = "El árbol está vacío";
+            }
+            else
+            {
+                List<int> valores = new List<int>(); //Lista paraa guardar los valores de los nodos
+                RecorrerInorden1(raiz, valores); // Obtenemos los valores en inorden
+                raiz = BuildArbolBalanceado(valores, 0, valores.Count - 1); //contruimos el árbol balanceado
+                msj = "Árbol balanceado correctamentee";
+            }
+            return msj;
+        }
+
+        private Nodo BuildArbolBalanceado(List<int> valores, int inicio, int fin)
+        {
+            if (inicio > fin)
+            {
+                return null; // No hay mas nodos en la rama del árbol
+            }
+            int medio = 0;
+            medio = (inicio + fin) / 2; //Encontramos el punto medio de nuestra lista
+            Nodo nuevonodo = new Nodo(new NodoArbol { Valor = valores[medio] });
+            // acá se construye recursivamente los subárboles izq y der
+            nuevonodo.Izquierda = BuildArbolBalanceado(valores, inicio, medio - 1);
+            nuevonodo.Derecha = BuildArbolBalanceado(valores, medio + 1, fin);
+            return nuevonodo;
+        }
     }
 }

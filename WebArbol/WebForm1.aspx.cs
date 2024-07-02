@@ -100,6 +100,8 @@ namespace WebArbol
 
         protected void Button6_Click(object sender, EventArgs e)
         {
+            string mensaje = obArbol.BalancearArbol();
+            TextBox2.Text = mensaje;
             ActualizarViewTree();
         }
 
